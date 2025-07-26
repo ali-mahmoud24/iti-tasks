@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #72c158;
+}
+
+.center {
+  height: 97vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #fff;
+
+  padding: 50px;
+  width: 400px;
+
+  box-shadow: 2px 2px 2px #fff;
+}
+
+.login-form {
+  width: 100%;
+}
+
+.login-form input {
+  width: 100%;
+
+  font-size: 16px;
+  padding: 10px;
+  color: #b5b5b5;
+  background-color: #f2f2f2;
+  border: 2px solid #f9f9f9;
+
+  margin-bottom: 10px;
+}
+
+.login-form button {
+  cursor: pointer;
+  width: 100%;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #00b242;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #00b242;
+}
+
+span {
+  color: #80ad91;
+  color: #80ad91;
+}
+
+.container p {
+  color: #cdcdcd;
+}
+.container p span a {
+  text-decoration: none;
+  color: #80ad91;
+}
+
+.modal {
+  position: absolute;
+  top: 50px;
+  right: 45vw;
+
+  padding: 20px;
+
+  background-color: #fff;
+
+  border-radius: 5px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  display: none;
+}
+
+.modal button {
+  background-color: #d2cdcd;
+  border: none;
+  color: #000;
+  cursor: pointer;
+
+  border-radius: 5px;
+  padding: 5px 25px;
+}
